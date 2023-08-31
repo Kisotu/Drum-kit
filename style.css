@@ -14,21 +14,23 @@ h2{
 }
   
 .key {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     text-align: center;
     margin: 10px;
     width: 300px;
     height: 490px;
-    border-radius: 3px;
-
+    border-radius: 4px;
     transition: 200ms ease-in-out;
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
 .key:hover{
     margin-bottom: -10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.7);
+    /* box-shadow: 0 0 5px rgba(0,0,0,0.7); */
+    transform: scale(1,1);
+    border-color: rgb(169, 232, 24);
+    box-shadow: 0 0 0.6rem rgb(169, 232, 24);
 }
 
 .key .sound{
