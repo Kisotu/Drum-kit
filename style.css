@@ -1,0 +1,162 @@
+body{
+    background-color: rgb(36, 36, 36);
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+.key {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    height: 490px;
+    border-radius: 3px;
+
+    transition: 200ms ease-in-out;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.key:hover{
+    margin-bottom: -10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+.key .sound{
+    color: #fff;
+    padding: 30px;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 25px;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.poster{
+    width: 130px;
+    height: 130px;
+    margin: auto auto;
+    position: relative;
+    border-radius: 100px;
+}
+.poster kbd{
+    top: 16px;
+    color: #fff;
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 100;
+}
+
+/* backgrounds */
+.one{
+    background: url("https://cdn.pixabay.com/photo/2021/03/29/06/35/hands-6133151_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.two{
+    background: url("https://media.istockphoto.com/id/90682201/photo/drum.webp?b=1&s=612x612&w=0&k=20&c=P6ErMrtfJFNhaK6gMQi-1K4GAo1o3pALAL_EfnfVn_c=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.three{
+    background: url("https://cdn.pixabay.com/photo/2017/03/27/12/29/broken-drumstick-2178387_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.four{
+    background: url("https://cdn.pixabay.com/photo/2016/01/09/10/09/drums-1130028_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.five{
+    background: url("https://images.unsplash.com/photo-1642946795035-e938b19565af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.six{
+    background: url("https://images.unsplash.com/photo-1530917203633-106d4a1a0967?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.seven{
+    background: url("https://th.bing.com/th/id/OIP.ZTAdfZXEdVSTRwCusbTcKAHaE7?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.eight{
+    background: url("https://cdn.pixabay.com/photo/2017/08/26/06/29/metronome-2682324_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nine{
+    background: url("https://images.unsplash.com/photo-1583440271013-1700a5ca1a35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1635&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* poster background */
+.clap{
+    background: linear-gradient(to right, #4e4376, #2b5876);
+    box-shadow: 0 0 20px darkblue;
+}
+
+.tom{
+    background: linear-gradient(to right, #ff5858, #f857a6);
+    box-shadow: 0 0 20px #fa3380;
+
+}
+.snare{
+    background: linear-gradient(to right, #8E54E9, #4776E6);
+    box-shadow: 0 0 20px lightblue;
+}
+.hihat{
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    box-shadow: 0 0 20px skyblue;
+}
+.openhat{
+    background: linear-gradient(to right,  #9733EE, #DA22FF);
+    box-shadow: 0 0 20px violet;
+}
+.boom{
+    background: linear-gradient(to right, #00CDAC, #02AAB0);
+    box-shadow: 0 0 20px lightgreen;
+}
+.ride{
+    background: linear-gradient(to right, #fa3, #fa3380);
+    box-shadow: 0 0 20px #fa3380;
+}
+.tink{
+    background: linear-gradient(to right, deepskyblue, lightblue);
+    box-shadow: 0 0 20px darkblue;
+}
+.kick{
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    box-shadow: 0 0 20px purple;
+}
