@@ -54,6 +54,9 @@ Some ideas:
 - Animate the interface
 
 - Make a drum machine interface for touch/mobile
+## Deployment
+
+The project is deployed on netlify on this url: https://e-drumkit.netlify.app/
 
 ## Credits
 
