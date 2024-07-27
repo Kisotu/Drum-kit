@@ -1,6 +1,6 @@
  ##
 
-# Electric Drum Kit
+# Drum Kit in JS
 
 This is a  JavaScript project that allows you to play drum sounds by pressing keys on your keyboard.
 
